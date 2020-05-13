@@ -151,7 +151,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='App'>
+      <Router>
         <nav className='App__nav'>
           {this.renderNavRoutes()}
         </nav>
@@ -164,7 +164,7 @@ class App extends Component {
           {this.renderMainRoutes()}
          
         </main>
-      </div>
+      </Router>
     )
   }
 }
